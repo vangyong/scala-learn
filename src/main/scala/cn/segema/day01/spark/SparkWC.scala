@@ -22,8 +22,8 @@ object SparkWC {
     val reduced:RDD[(String,Int)] = paired.reduceByKey(_+_)
     val res:RDD[(String,Int)] = reduced.sortBy(_._2,false)
 
-    res.saveAsTestFile(args(1))
-//    println(res.collect().toBuffer)
+//    res.saveAsTestFile(args(1))
+    println(res.collect().toBuffer)
 
     //结束任务
     sc.stop()
