@@ -1,23 +1,23 @@
-package cn.segema.day01
+package cn.segema.learn.scala
 
 import scala.collection.mutable
 import scala.collection.mutable.ArrayBuffer
 import scala.collection.mutable._
 
-class Test1 {
+class BaseDemo1 {
 
 }
 
-object Test1 {
+object BaseDemo1 {
   def main(args: Array[String]): Unit = {
 
     //数组
-    //    val arr1 = new Array[Int](3)
-    //    println(arr1.toBuffer)
-    //
-    //    val  arr2 = Array("java","C#","shuxue")
-    //    println(arr2.toBuffer)
-    //    println(arr2(2))
+        val arr1 = new Array[Int](3)
+        println(arr1.toBuffer)
+
+        val  arr2 = Array("java","C#","shuxue")
+        println(arr2.toBuffer)
+        println(arr2(2))
 
     //    val arr3 =ArrayBuffer[Int]()
     //    arr3+=1

@@ -1,9 +1,9 @@
-package cn.segema.day07
+package cn.segema.learn.spark
 
 import org.apache.spark.{SparkConf, SparkContext}
 
 
-object SparkRDDTest {
+object RddDemo {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setAppName("SparkRDDTest").setMaster("local")
     val sc = new SparkContext(conf)

@@ -1,9 +1,9 @@
-package cn.segema.day01.spark
+package cn.segema.learn.spark
 
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
-object SparkWC {
+object WordCountDemo {
 
   def main(args: Array[String]): Unit = {
 
