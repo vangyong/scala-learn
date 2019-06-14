@@ -1,4 +1,4 @@
-package cn.segema.learn.scala
+package cn.segema.learn.demo
 
 class BaseDemo2 {
 

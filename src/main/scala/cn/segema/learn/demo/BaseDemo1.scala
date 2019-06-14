@@ -1,4 +1,4 @@
-package cn.segema.learn.scala
+package cn.segema.learn.demo
 
 import scala.collection.mutable
 import scala.collection.mutable.ArrayBuffer
