@@ -12,22 +12,22 @@ object BaseDemo1 {
   def main(args: Array[String]): Unit = {
 
     //数组
-        val arr1 = new Array[Int](3)
-        println(arr1.toBuffer)
+//    val arr1 = new Array[Int](3)
+//    println(arr1.toBuffer)
+//
+//    val arr2 = Array("java", "C#", "shuxue")
+//    println(arr2.toBuffer)
+//    println(arr2(2))
 
-        val  arr2 = Array("java","C#","shuxue")
-        println(arr2.toBuffer)
-        println(arr2(2))
+        val arr3 =ArrayBuffer[Int]()
+        arr3+=1
+        arr3+=(2,3,4)
+        arr3++=Array(5,6)
+        arr3++=ArrayBuffer(7,8)
+        arr3.insert(0,-1,4,5)
+        arr3.remove(0,2)
+        println(arr3.toBuffer)
 
-    //    val arr3 =ArrayBuffer[Int]()
-    //    arr3+=1
-    //    arr3+=(2,3,4)
-    //    arr3++=Array(5,6)
-    //    arr3++=ArrayBuffer(7,8)
-    //    arr3.insert(0,-1,4,5)
-    //    arr3.remove(0,2)
-
-    //    println(arr3.toBuffer)
     //
     //    val arr4 = Array(1,2,3,4,5,6,7,8,9)
     //    //for (i<-arr4) println(i)
@@ -77,15 +77,17 @@ object BaseDemo1 {
     //    set3.remove(2)
     //    println(set3)
 
-    val map1 = new HashMap[String, Int]()
-    map1("scala") = 1
+//    val map1 = new HashMap[String, Int]()
+//    map1("scala") = 1
+//
+//
+//    map1 += (("java", 2), ("python", 3))
+//    map1.put("c++", 5)
+//
+//    map1 -= "java"
+//    map1.remove("C++")
+//    println(map1)
 
 
-    map1 += (("java", 2), ("python", 3))
-    map1.put("c++", 5)
-
-    map1 -= "java"
-    map1.remove("C++")
-    println(map1)
   }
 }
